@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <preference for="Magento\Review\Model\ResourceModel\Review" type="AHT\ReviewCustom\Model\ResourceModel\Review" />
+    <preference for="Magento\Review\Block\Form" type="AHT\ReviewCustom\Block\Form" />
+    <preference for="Magento\Review\Model\Review" type="AHT\ReviewCustom\Model\Review" />
+    <preference for="Magento\Review\CustomerData\Review" type="AHT\ReviewCustom\CustomerData\Review" />
+    <preference for="Magento\Review\Model\ResourceModel\Review\Collection" type="AHT\ReviewCustom\Model\ResourceModel\Review\Collection" />
+    <preference for="Magento\Review\Controller\Product\Post" type="AHT\ReviewCustom\Controller\Product\Post" />
+</config>
